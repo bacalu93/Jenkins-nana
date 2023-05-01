@@ -17,7 +17,7 @@ stages {
   
   stage("test") {
    when {
-    expresion {
+    expression {
         params.executeTests
     }
    }
